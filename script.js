@@ -3,9 +3,12 @@ const days = document.getElementById("days");
 const hours = document.getElementById("hours");
 const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
+const year = document.getElementById("year");
 
 // Getting the current year
 const currentYear = new Date().getFullYear();
+
+year.innerHTML = currentYear + 1;
 
 // Getting new year
 const newYear = new Date(`January 01 ${currentYear + 1} 00:00:00`);

@@ -42,3 +42,11 @@ h1 {
 .time h2 {
 	margin: 0 30px;
 }
+
+.year{
+	font-size: 200px;
+	position: absolute;
+	bottom: 2%;
+	opacity: 0.50;
+	z-index: -1;
+}
